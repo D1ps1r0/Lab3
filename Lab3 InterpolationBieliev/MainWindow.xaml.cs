@@ -1,0 +1,7 @@
+using System.Windows;
+using InterpolationLab.ViewModels;
+namespace InterpolationLab;
+public partial class MainWindow : Window
+{
+    public MainWindow(){InitializeComponent();DataContext=new MainViewModel();}
+}
